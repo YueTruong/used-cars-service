@@ -23,7 +23,7 @@ const Search = () => {
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                     className='search-bar w-full max-w-4xl p-2 border rounded'
-                    placeholder='Search for products...' name="" id="" />
+                    placeholder='Search for products...'/>
                     <button onClick={handleSearch} className='search-button w-full md:w-auto py-2 px-8 bg-primary text-white rounded'>Search</button>
                 </div>
                 <ProductCards products={filteredProducts}/>
